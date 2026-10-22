@@ -19,101 +19,90 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=6e71b8d4">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261022">
+<meta name="theme-color" content="#EDE9E2">
 </head>
 <body>
 
 <header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand brand-has-logo" href="index.html"><img class="brand-logo" src="img/logo.png" alt="OLS-BUD" width="690" height="160" decoding="async"></a>
-    <nav class="nav-links">
-      <a href="oferta.html">Oferta</a>
-      <a href="realizacje.html" class="active" aria-current="page">Realizacje</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="tel:+48572489112" class="btn btn-accent">Zadzwoń +48 572 489 112</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><img class="brand-logo" src="img/logo.png" alt="OLS-BUD" width="690" height="160" decoding="async"></a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span></button>
+    <a class="nav-tel" href="tel:+48572489112" aria-label="Zadzwoń +48 572 489 112"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg>+48 572 489 112 <span class="arr">→</span></a>
   </div>
 </header>
+<div class="menu" aria-label="Menu strony">
+  <nav>
+    <a href="index.html">Start</a>
+    <a href="oferta.html">Oferta</a>
+    <a href="realizacje.html">Realizacje</a>
+    <a href="o-nas.html">O nas</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <div class="menu-foot"><a href="tel:+48572489112">+48 572 489 112</a><span>Łosie-Dołęgi 6, 18-300 Zambrów</span><a href="https://www.facebook.com/olsbud" target="_blank" rel="noopener">Facebook →</a></div>
+</div>
 
 <main>
-<section class="pagehead">
-  <img src="img/g4.jpg" alt="OLS-BUD - Nasze prace" width="1880" height="1253" decoding="async">
-  <div class="wrap">
+<section class="pagehead beige">
+  <div class="wrap reveal">
     <span class="eyebrow">Realizacje</span>
     <h1>Nasze prace</h1>
-    <p>Domy po elewacji, podbitki, rynny i detale wykończenia.</p>
+    <p>Domy po elewacji i dociepleniu, podbitki, rynny i detale wykończenia.</p>
   </div>
 </section>
-<section>
-  <div class="wrap">
-    <div class="gallery">
-      <div class="tile t-two3 reveal"><img src="img/g1.jpg" alt="OLS-BUD" loading="lazy" width="1880" height="1253" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g2.jpg" alt="OLS-BUD" loading="lazy" width="1792" height="1144" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g3.jpg" alt="OLS-BUD" loading="lazy" width="1880" height="1255" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g5.jpg" alt="OLS-BUD" loading="lazy" width="1880" height="1253" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g6.jpg" alt="OLS-BUD" loading="lazy" width="1734" height="1176" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g7.jpg" alt="OLS-BUD" loading="lazy" width="1880" height="1253" decoding="async"></div>
-      <div class="tile t-two3 reveal"><img src="img/g8.jpg" alt="OLS-BUD" loading="lazy" width="1880" height="1253" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g9.jpg" alt="OLS-BUD" loading="lazy" width="1880" height="1253" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g10.jpg" alt="OLS-BUD" loading="lazy" width="1880" height="1253" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g11.jpg" alt="OLS-BUD" loading="lazy" width="1880" height="1253" decoding="async"></div>
-      <div class="tile t-two3 reveal"><img src="img/g12.jpg" alt="OLS-BUD" loading="lazy" width="1834" height="1208" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/about.jpg" alt="OLS-BUD" loading="lazy" width="1780" height="1128" decoding="async"></div>
-    </div>
+<section class="dark" style="padding:clamp(40px,5vw,70px) 0">
+  <div class="gal">
+    <figure class="fig reveal"><div class="ph"><img src="img/g1.jpg" alt="Docieplenie" width="1880" height="1253" fetchpriority="high" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/g12.jpg" alt="Elewacja" width="1880" height="1253" fetchpriority="high" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/g5.jpg" alt="Podbitka" width="1880" height="1253" fetchpriority="high" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/g8.jpg" alt="Elewacja" width="1880" height="1253" fetchpriority="high" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/g3.jpg" alt="Tynk" width="1880" height="1255" fetchpriority="high" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/g6.jpg" alt="Rynny" width="1836" height="1300" fetchpriority="high" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/g10.jpg" alt="Wykończenie" width="1880" height="1253" fetchpriority="high" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/g9.jpg" alt="Docieplenie" width="1880" height="1253" fetchpriority="high" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/g11.jpg" alt="Elewacja" width="1880" height="1253" loading="lazy" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/g7.jpg" alt="Tynk" width="1880" height="1253" loading="lazy" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/g4.jpg" alt="Docieplenie" width="1880" height="1253" loading="lazy" decoding="async"></div></figure>
+    <figure class="fig reveal"><div class="ph"><img src="img/about.jpg" alt="Okna i parapety" width="1880" height="1253" loading="lazy" decoding="async"></div></figure>
   </div>
 </section>
-<section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Spodobały Ci się nasze prace?</h2>
-      <p>Opowiedz, co trzeba zrobić - przygotujemy wycenę.</p>
-    </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48572489112" class="btn btn-ghost btn-ghost-cta">+48 572 489 112</a>
-    </div>
+<section class="dark pv cta-big ">
+  <div class="wrap reveal">
+    <span class="eyebrow">Spodobały Ci się nasze prace?</span>
+    <a class="num" href="tel:+48572489112">572 489 112</a>
+    <a class="pill" href="tel:+48572489112">Zadzwoń teraz</a>
   </div>
 </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">OLS-BUD</div>
-        <p>Docieplamy ściany, kładziemy tynk, montujemy podbitki, rynny, parapety i okna. Pracujemy w Zambrowie i okolicach.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
-        <a href="oferta.html">Oferta</a>
-        <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
-        <a href="kontakt.html">Kontakt</a>
-      </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
+    <div class="f-top">
+      <div class="f-list">
         <a href="tel:+48572489112">+48 572 489 112</a>
-        <p>Łosie-Dołęgi 6, 18-300 Zambrów</p>
-        <a href="https://maps.google.com/?cid=4169844181231755360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
-        <a class="soc" href="https://www.facebook.com/olsbud" target="_blank" rel="noopener" aria-label="Facebook - OLS-BUD"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="currentColor"/></svg></a>
-        <a class="soc" href="https://maps.google.com/?cid=4169844181231755360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - OLS-BUD"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
+        <span>Łosie-Dołęgi 6, 18-300 Zambrów</span>
+        <span>pon.-pt. 6:00-16:00, sob. 6:00-12:00</span>
+        <span class="lbl">Obszar działania</span>
+        <span>Zambrów</span>
+        <span>Łosie-Dołęgi</span>
+        <span>okoliczne miejscowości</span>
       </div>
-      </div>
+      <a class="soc" href="https://www.facebook.com/olsbud" target="_blank" rel="noopener"><div class="t">Facebook <span class="arr">→</span></div><div class="s">Bieżące realizacje</div></a>
+      <a class="soc" href="https://maps.google.com/?cid=4169844181231755360&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener"><div class="t">Google <span class="arr">→</span></div><div class="s">Opinie 5,0</div></a>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 OLS-BUD</span>
-      <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
+    <div class="f-mid">
+      <a class="brand" href="index.html"><img src="img/logo.png" alt="OLS-BUD" width="690" height="160" loading="lazy" decoding="async"></a>
+      <nav class="f-nav"><a href="oferta.html">Oferta</a><a href="realizacje.html">Realizacje</a><a href="o-nas.html">O nas</a><a href="kontakt.html">Kontakt</a></nav>
+    </div>
+    <div class="f-bot">
+      <div>OLS-BUD<br>Łosie-Dołęgi 6, 18-300 Zambrów</div>
+      <div>© 2026 OLS-BUD<br>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></div>
     </div>
   </div>
 </footer>
-<div class="sticky-call"><a class="sc-call" href="tel:+48572489112"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Umów oględziny</a></div>
-<div class="demo-wazne" data-do="2026-10-28" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
-
-<script src="assets/main.js"></script>
+<div class="sticky-call"><a class="sc-call" href="tel:+48572489112">Zadzwoń</a><a class="sc-quote" href="kontakt.html">Umów oględziny</a></div>
+<div class="demo-wazne" data-do="2026-10-28" data-cykl="3" hidden><span class="dw-txt"></span></div>
+<script src="assets/main.js?v=20261022"></script>
 </body>
 </html>
